@@ -1,0 +1,16 @@
+{
+  "name": "happy-thanksgiving",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A turkey landing page with Cosmic behind a double-comma shortcut.",
+  "engines": { "node": ">=18.11" },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.2.6",
+    "express": "^4.18.2"
+  }
+}
